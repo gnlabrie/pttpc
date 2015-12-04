@@ -9,7 +9,7 @@ end
 
 task	:unit_test do
      Dir.chdir("/tmp")
-     if ! File.exists("hello.tmp") do
+     if ! File.exists("hello.tmp") then
           puts "File /tmp/hello.tmp missing"
           Fail
      else
