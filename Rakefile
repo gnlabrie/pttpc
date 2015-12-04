@@ -9,7 +9,7 @@ end
 
 task	:unit_test do
      Dir.chdir("/tmp")
-     Fail if ! File.exists("hello.tmp")
+     Fail if ! File.exists("hello.tmp.error")
 end
 
 task	:package
